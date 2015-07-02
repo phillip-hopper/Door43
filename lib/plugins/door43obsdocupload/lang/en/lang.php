@@ -17,6 +17,8 @@ $lang['sourceLabel'] = 'Template Source Language';
 $lang['docxFileCreateError'] = 'Error creating the docx file';
 $lang['includeImagesLabel'] = 'Include all images in the file';
 $lang['includeSub3Label'] = 'Include Level 1 and 2 languages';
+$lang['selectDocxFile'] = 'Choose a DOCX file to upload';
+$lang['importDocx'] = 'Import DOCX file';
 
 // localized strings for JavaScript
 // js example: var text = LANG.plugins['door43register']['translate'];

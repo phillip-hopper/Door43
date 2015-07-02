@@ -112,9 +112,13 @@ class action_plugin_door43obsdocupload_ExportButtons extends Door43_Action_Plugi
 
         if ($this->showToolstripButton() !== 1) return;
 
+        // export button
         $btn = '<li id="getObsTemplateBtn"><a href="#" class=" tx-export" rel="nofollow" ><span>' . $this->getLang('getTemplate') . '</span></a></li>';
-
         $event->data['items']['export_obs_template'] = $btn;
+
+        // import button
+        $btn = '<li id="importObsDocxBtn"><a href="#" class=" tx-import" rel="nofollow" ><span>' . $this->getLang('importDocx') . '</span></a></li>';
+        $event->data['items']['import_obs_docx'] = $btn;
     }
 
     public function get_obs_doc_export_dlg() {
